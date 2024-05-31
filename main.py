@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the pickled model
-pickle_file = 'C:\\Users\\Vaibhav\\PycharmProjects\\hotel_price_01\\hotel_model.pkl'
+pickle_file = 'hotel_model.pkl'
 with open(pickle_file, 'rb') as f:
     model, scaler = pickle.load(f)
 
